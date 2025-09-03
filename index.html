@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Try On Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #1a1a2e;
+        }
+        .slider-track {
+            background: #151525;
+            box-shadow: inset 2px 2px 4px #10101b, inset -2px -2px 4px #2a2a55;
+        }
+
+        /* Chrome, Safari, Opera, and Edge */
+        .slider-track::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #ff00ff;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid #1a1a2e;
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 5px rgba(255, 0, 255, 1);
+        }
+
+        /* Firefox */
+        .slider-track::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #ff00ff;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 2px solid #1a1a2e;
+            box-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 5px rgba(255, 0, 255, 1);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-bg': '#1a1a2e',
+                        'dark-panel': '#1f1f3a',
+                        'neon-pink': '#ff00ff',
+                        'light-glow': 'rgba(255, 255, 255, 0.05)',
+                        'dark-shadow': 'rgba(10, 10, 20, 0.6)',
+                    },
+                    boxShadow: {
+                        'neumo-convex': '5px 5px 10px #151525, -5px -5px 10px #252547',
+                        'neumo-concave': 'inset 5px 5px 10px #151525, inset -5px -5px 10px #252547',
+                        'pink-glow': '0 0 15px rgba(255, 0, 255, 0.6), 0 0 5px rgba(255, 0, 255, 0.8)',
+                        'concave-glow-edge': 'inset 5px 5px 10px #151525, inset -5px -5px 10px #252547, 0 0 10px rgba(255, 0, 255, 0.5)',
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

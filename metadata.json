@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Try On Assistant",
+  "description": "An AI-powered virtual try-on assistant that realistically applies multiple fashion accessories or clothing items onto a user's uploaded photo.",
+  "requestFramePermissions": []
+}
