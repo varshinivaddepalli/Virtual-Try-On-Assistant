@@ -2,7 +2,7 @@
 # 👗🕶️ Virtual Try-On Assistant
 
 <div align="center">  
-  <img width="1200" alt="Nano Banana Banner" src="google-nano-banana.webp" />  
+  <img width="1200" alt="Nano Banana Banner" src="output.gif" />  
 </div>  
 
 ---
@@ -14,7 +14,7 @@ The **Virtual Try-On Assistant** allows users to upload their own photo and inst
 Built using **Google DeepMind’s Gemini 2.5 Flash Image (Nano Banana) model**, it preserves the user’s **face, hairstyle, expressions, and skin tone**, while realistically overlaying clothing and accessories.
 
 <div align="center">
-  <img src="output.gif" alt="Try-On Preview" width="600"/>
+  <img src="google-nano-banana.webp" alt="Try-On Preview" width="600"/>
 </div>
 
 **Use Cases:**
