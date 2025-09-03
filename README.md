@@ -15,7 +15,7 @@ Built using **Google DeepMind’s Gemini 2.5 Flash Image (Nano Banana) model**, 
 
 <div align="center">
   <video width="600" controls>
-    <source src="output.mov" type="video/quicktime">
+    <source src="assets/output.mov" type="video/quicktime">type="video/quicktime">
     Your browser does not support the video tag.
   </video>
 </div>
