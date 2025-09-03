@@ -13,6 +13,13 @@ The **Virtual Try-On Assistant** allows users to upload their own photo and inst
 
 Built using **Google DeepMind’s Gemini 2.5 Flash Image (Nano Banana) model**, it preserves the user’s **face, hairstyle, expressions, and skin tone**, while realistically overlaying clothing and accessories.
 
+<div align="center">
+  <video width="600" controls>
+    <source src="output.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 **Use Cases:**
 
 * 🛍️ **E-commerce & Fashion Retail** – Boost engagement and reduce returns
